@@ -15,6 +15,7 @@
 	<description>Bicycle</description>
 	<url/>
 	<properties>
+		<!-- upgrade version when using newer version of java -->
 		<java.version>17</java.version>
 		<kotlin.version>1.9.25</kotlin.version>
 	</properties>
