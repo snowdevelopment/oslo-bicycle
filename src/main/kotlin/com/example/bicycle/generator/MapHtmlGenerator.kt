@@ -26,7 +26,7 @@ class MapHtmlGenerator {
             <html>
             <head>
                 <title>Oslo Bysykkel</title>
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9__oSwm9mwg0UqvuSmqyDDirWzMpxtYo"></script>
+                <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY"></script>
                 <script>
                     function initMap() {
                         var locations = [
