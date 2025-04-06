@@ -12,6 +12,9 @@ import org.junit.jupiter.api.Test
 import java.io.File
 import kotlin.test.assertEquals
 
+/**
+ * @author Henrik Solberg
+ * */
 class BicycleServiceTest {
     private val mockedOkHttpClient = mockk<OkHttpClient>()
     private val bicycleService = BicycleService()

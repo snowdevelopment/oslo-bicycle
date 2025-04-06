@@ -1,5 +1,8 @@
 package com.example.bicycle.domain
 
+/**
+ * @author Henrik Solberg
+ * */
 data class StationStatusResponse(
     val last_updated: Long,
     val ttl: Int,

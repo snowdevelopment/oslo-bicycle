@@ -13,6 +13,7 @@ import okhttp3.Response
 import org.springframework.stereotype.Service
 
 /**
+ * @author Henrik Solberg
  * Responsible for communicating with public api for retrieval of bicycle stations.
  * Uses OkHttpClient for performing REST call.
  * Using jackson object mapper for deserialization.

@@ -2,6 +2,9 @@ package com.example.bicycle.generator
 
 import com.example.bicycle.domain.StationInformation
 
+/**
+ * @author Henrik Solberg
+ * */
 class GoogleMapsHtmlGenerator {
 
     fun generateGoogleMapsWebPage(stationsInformation: List<StationInformation>): String {

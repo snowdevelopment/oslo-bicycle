@@ -4,6 +4,9 @@ import com.example.bicycle.service.BicycleService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RestController
 
+/**
+ * @author Henrik Solberg
+ * */
 @RestController
 class BicycleRestController {
     private val bicycleService = BicycleService()
