@@ -1,9 +1,8 @@
 package com.example.bicycle.generator
 
 import com.example.bicycle.domain.StationInformation
-import com.example.bicycle.domain.StationStatus
 
-class MapHtmlGenerator {
+class GoogleMapsHtmlGenerator {
 
     fun generateGoogleMapsWebPage(stationsInformation: List<StationInformation>): String {
         // TODO: fix problem with ' in name; skip for now

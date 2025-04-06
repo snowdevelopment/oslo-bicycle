@@ -4,7 +4,7 @@ import com.example.bicycle.domain.StationInformation
 import com.example.bicycle.domain.StationInformationResponse
 import com.example.bicycle.domain.StationStatus
 import com.example.bicycle.domain.StationStatusResponse
-import com.example.bicycle.generator.MapHtmlGenerator
+import com.example.bicycle.generator.GoogleMapsHtmlGenerator
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.fasterxml.jackson.module.kotlin.KotlinModule
 import okhttp3.OkHttpClient
@@ -48,7 +48,7 @@ class BicycleService {
         val stationsInformation = lookupStationInformation()
         val stationsStatus = lookupStationStatus()
         applyStatusToStationsInformation(stationsInformation, stationsStatus)
-        return MapHtmlGenerator().generateGoogleMapsWebPage(stationsInformation)
+        return GoogleMapsHtmlGenerator().generateGoogleMapsWebPage(stationsInformation)
     }
 
     private fun applyStatusToStationsInformation(
