@@ -53,7 +53,7 @@ class MapHtmlGenerator {
                 <div>
                     <div id="map" style="float:left; height: 800px; width: 70%;"></div>
                     <div style="padding-left: 1rem; overflow: auto; height: 800px;">
-                    <h2>Stations</h2>
+                    <h2>Bysykkel stasjoner</h2>
                     $stationsList
                     </div>
                 <div>
