@@ -9,13 +9,14 @@ Backend med liten frontend som løser kodeoppgave med Oslo bysykkel.
 - Visuell løsning for sluttbruker er norsk
 
 ## Google maps
-Løsning tas opp i google maps. 
+Løsning bruker google maps. 
 
-Api nøkkel fås på forespørsel.
+Lag/hent api nøkkel beskrevet her: https://developers.google.com/maps/documentation/javascript/get-api-key
+
+Åpne fila MapHtmlGenerator.kt og søk og erstatt API_KEY med din egen nøkkel.
 
 ## Kjøring av programmet
 Klone repository fra https://github.com/snowdevelopment/oslo-bicycle
-Åpne fila MapHtmlGenerator.kt og søk og erstatt API_KEY (tidligere nøkler er slettet).
 
 ### Fra kommandolinje
 Kjør lokalt med: `mvn spring-boot:run`
